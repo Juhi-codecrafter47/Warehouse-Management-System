@@ -1,0 +1,224 @@
+/* Add your existing styles here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Helvetica, sans-serif;
+    background-color: #e7f6ff;
+}
+
+body {
+    
+
+}
+
+.navbar {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.navbar-toggler-icon {
+    background-color: #e7f6ff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+    font-weight: bold;
+    margin: 20px;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgb(152, 152, 240);
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #e7f6ff 0%, #28a745 100%);
+    transform-origin: top right;
+    transform: skewY(-15deg);
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.navbar-nav .nav-item:hover::before,
+.navbar-nav .nav-item.active::before {
+    transform: skewY(0);
+}
+
+/* Add your existing styles here */
+
+.hero {
+    position: relative;
+    height: 100vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 100;
+}
+
+.overlay h1,
+.overlay em {
+    margin-bottom: 10px;
+    background-color: transparent; /* Set background to transparent */
+}
+.middle-sec {
+    height: 100vh;
+    width: 100%;
+    background-color: #e7f6ff;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px  15%;
+    flex-direction: column;
+    height: 100px;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
+.head *{
+    text-align: center;
+    background-color: lightyellow;
+}
+.left-c{
+    width: 50%;
+    margin: 50px;
+    right: 20px;
+}
+.right-c{
+    width: 50%;
+    margin: 20px;
+    margin: auto;
+    text-align: center;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+}
+/* .care-sec{
+    width: 100%;
+    height: 100vh;
+}
+.care-sec .check{
+   
+
+} */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e7f6ff;
+}
+
+.contact {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.contact *{
+    background-color: white;
+
+}
+
+
+form {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+form label,
+form input {
+    display: block;
+    margin: 10px 0;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: green;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .col-2 {
+        padding: 20px;
+    }
+}
+
+
+footer *{
+    background-color: #343a40;
+    margin: 0;
+    padding: 0;
+}
