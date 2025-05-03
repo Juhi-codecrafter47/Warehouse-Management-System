@@ -8,11 +8,6 @@ font-family: Helvetica, sans-serif;
     background-color: #e7f6ff;
 }
 
-body {
-    
-
-}
-
 .navbar {
     background-color: transparent;
     box-shadow: none;
@@ -135,7 +130,7 @@ body {
     width: 50%;
     margin: 20px;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 .center{
     display: flex;
